@@ -13,19 +13,19 @@ function setScore(score) {
 }
 
 function setImage() {
-  if (getScore() >= 1000) {
+  if (getScore() >= 50000) {
     $circle.setAttribute('src', 'frog.png')
     document.getElementsByClassName('lig')[0].textContent = "Продвинутый";
   }
  
 }
 function Gold(){
-   if (getScore() >= 3000) {
+   if (getScore() >= 200000) {
     document.getElementsByClassName('lig')[0].textContent = "Мастер";
   }
 }
 function diamond(){
-  if (getScore() >=5000){
+  if (getScore() >=1000000){
     document.getElementsByClassName('lig')[0].textContent = 'Магнат'
   }
 }
