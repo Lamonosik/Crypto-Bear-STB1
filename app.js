@@ -12,8 +12,15 @@ function setScore(score) {
 }
 
 function setImage() {
-  if (getScore() >= 100) {
-    $circle.setAttribute('src', 'lizzard.png')
+  if (getScore() >= 1000) {
+    $circle.setAttribute('src', 'frog.png')
+    document.getElementsByClassName('lig')[0].textContent = "Продвинутый";
+  }
+ 
+}
+function Gold(){
+   if (getScore() >= 3000) {
+    document.getElementsByClassName('lig')[0].textContent = "Мастер";
   }
 }
 
@@ -24,6 +31,7 @@ function getScore() {
 function addOne() {
   setScore(getScore() + 1)
   setImage()
+  Gold()
 }
 
 $circle.addEventListener('click', (event) => {
