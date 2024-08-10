@@ -1,3 +1,4 @@
+
 const $circle = document.querySelector('#circle')
 const $score = document.querySelector('#score')
 
@@ -23,6 +24,11 @@ function Gold(){
     document.getElementsByClassName('lig')[0].textContent = "Мастер";
   }
 }
+function diamond(){
+  if (getScore() >=5000){
+    document.getElementsByClassName('lig')[0].textContent = 'Магнат'
+  }
+}
 
 function getScore() {
   return Number(localStorage.getItem('score')) ?? 0
@@ -32,6 +38,7 @@ function addOne() {
   setScore(getScore() + 1)
   setImage()
   Gold()
+  diamond()
 }
 
 $circle.addEventListener('click', (event) => {
@@ -40,7 +47,7 @@ $circle.addEventListener('click', (event) => {
   const offfsetX = event.clientX - rect.left - rect.width / 2
   const offfsetY = event.clientY - rect.top - rect.height / 2
 
-  const DEG = 300
+  const DEG = 150
 
   const tiltX = (offfsetY / rect.height) * DEG
   const tiltY = (offfsetX / rect.width) * -DEG
