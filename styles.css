@@ -25,7 +25,7 @@ body {
 .score {
   color: #fff;
   text-align: center;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 800;
   user-select: none;
 }
@@ -58,6 +58,27 @@ body {
   pointer-events: none;
   user-select: none;
   animation: move-up 2s forwards;
+}
+
+
+
+.liga{
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 800;
+  user-select: none;
+
+
+
+}
+.dis{
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 800;
+  user-select: none;
+
 }
 
 @keyframes move-up {
