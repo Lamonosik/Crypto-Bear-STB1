@@ -40,7 +40,7 @@ $circle.addEventListener('click', (event) => {
   const offfsetX = event.clientX - rect.left - rect.width / 2
   const offfsetY = event.clientY - rect.top - rect.height / 2
 
-  const DEG = 100
+  const DEG = 300
 
   const tiltX = (offfsetY / rect.height) * DEG
   const tiltY = (offfsetX / rect.width) * -DEG
