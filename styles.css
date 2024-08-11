@@ -69,7 +69,7 @@ body {
   -webkit-text-fill-color: transparent;
   pointer-events: none;
   user-select: none;
-  animation: move-up 2s forwards;
+  animation: move-up 0.5s forwards;
 }
 
 
