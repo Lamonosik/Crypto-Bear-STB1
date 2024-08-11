@@ -89,6 +89,12 @@ body {
   --tiltY: 0deg;
   transform: rotateX(var(--tiltX)) rotateY(var(--tiltY));
 }
+.eve{
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 800;
+  user-select: none;
 
 .plus-one {
   position: absolute;
