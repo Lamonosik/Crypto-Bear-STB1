@@ -7,7 +7,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: src="./assets/background.png"
+  div {
+  background-image: src=("background.png");
 }
 
 .header {
