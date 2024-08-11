@@ -9,7 +9,7 @@ body {
   align-items: center;
   background-image: url("background.png");
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: center;
 
 .header {
   display: flex;
