@@ -1,9 +1,9 @@
 html,
 body {
   margin: 0;
-  height: 30%;
+  height: 40%;
   padding: 0;
-  width:30%;
+  width:40%;
   display: flex;
   justify-content: center;
   align-items: center;
