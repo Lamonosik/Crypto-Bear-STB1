@@ -73,6 +73,13 @@ body {
   font-weight: 800;
   user-select: none;
 }
+.sub {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  user-select: none;
+}
 
 
 .circle {
