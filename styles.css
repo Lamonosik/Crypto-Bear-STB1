@@ -7,9 +7,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  div {
-  background-image: url("./assets/background.png");
-}
+  background-image: url("../../media/examples/lizard.png");
 
 .header {
   display: flex;
