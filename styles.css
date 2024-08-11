@@ -30,6 +30,7 @@ body {
     transform: rotate(360deg);
   }
 }
+.navbar a {
   float: left;
   display: block;
   color: #f2f2f2;
