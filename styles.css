@@ -132,6 +132,13 @@ body {
   user-select: none;
 
 }
+.air{
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 800;
+  user-select: none;
+}
 
 @keyframes move-up {
   0% {
