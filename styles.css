@@ -52,6 +52,11 @@ body {
   background-color: #ddd;
   color: black;
 }
+.parent{
+  place-items:center
+  display: grid
+}
+  
 
 /* Add a color to the active/current link */
 .navbar a.active {
