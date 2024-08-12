@@ -11,6 +11,23 @@ body {
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
+  
+  @font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Roboto"),
+       /* Если не получилось, загрузит woff2 */
+       url("/fonts/roboto.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("/fonts/roboto.woff") format("woff");
+}
+
+/* Теперь можно использовать шрифт */
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+}
 
 .header {
   display: flex;
