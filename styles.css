@@ -13,20 +13,20 @@ body {
   background-attachment: fixed;
   
   @font-face {
-  font-family: "Roboto";
+  font-family: "Geist Mono";
   font-style: normal;
-  font-weight: 400;
+  font-weight: bold;
   /* Браузер сначала попробует найти шрифт локально */
-  src: local("Roboto"),
+  src: local("Geist Mono"),
        /* Если не получилось, загрузит woff2 */
-       url("/fonts/roboto.woff2") format("woff2"),
+       url("/fonts/Geist Mono.woff2") format("woff2"),
        /* Если браузер не поддерживает woff2, загрузит woff */
-       url("/fonts/roboto.woff") format("woff");
+       url("/fonts/Geist Mono.woff") format("woff");
 }
 
 /* Теперь можно использовать шрифт */
 body {
-  font-family: "Roboto", "Arial", sans-serif;
+  font-family: "Geist Mono";
 }
 
 .header {
